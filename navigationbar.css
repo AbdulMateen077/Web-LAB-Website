@@ -1,0 +1,30 @@
+.nav-container{
+display: grid;
+grid-template-columns: 50% 50%;
+background-color: rgb(24, 24, 24);
+
+}
+.nav-ul{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  padding: 50px;
+  text-align: left;
+  margin-bottom: 30px;
+  list-style: none;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+ul li{
+  margin-bottom: 50px;
+  font-size: 36px;
+}
+.nav-img{
+padding-left: 70px;
+margin-right: 0;
+}
+.nav-div-ul{
+  margin-top: 80px;
+}
